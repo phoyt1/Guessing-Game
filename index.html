@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type = 'text/css' href="main.css">
+    <script src="jquery-3.2.0.min.js"></script>
+    <script src="GuessingGame-Part2/GuessingGame.js"></script>
+    <title>Guessing Game</title>
+  </head>
+  <body>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <img class="source-image" src='https://farm1.staticflickr.com/672/23660795516_d294caa983_b.jpg' alt="" />
+      <div id='app'  class="center">
+
+        <div id='header' class="page-header">
+          <h1 id='title'>How Many Trains Were On Time Today?</h1>
+          <h2 id='subtitle'>Guess a number between 1-100!</h2>
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id='player-input' class='center' placeholder="#" maxlength='3' 
+            autofocus=autofocus></input>
+            <button type="button" class="btn btn-success" id = 'submit'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul class='guess-list'>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button type="button" class="btn btn-info" id="reset" value="">Reset</button>
+            <button type="button" class="btn btn-warning" id="hint" value="">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center row'>
+        <div>
+          <div class='col-xs-4 col-md-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-xs-4 col-md-4'>
+            <br>
+            <h4>Project by Patrick Hoyt</h4>
+            <h5> Photo credit: <a target="_blank" href='https://www.flickr.com/photos/129417181@N04/'>Sebastian Sinisterra</a>
+          </div>
+
+          <div class='col-xs-4 col-md-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>

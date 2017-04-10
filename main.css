@@ -1,0 +1,82 @@
+/* Bootstrap and CSS here */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+
+#app {
+  width: 70%;
+  margin: 50px auto;
+}
+.center {
+text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+#header{
+    /*text-align: left;*/
+    color: rgb(252, 248, 227);
+}
+#footer {
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+}
+
+#input-parent {
+  width: 160px;
+  margin: 100px auto 0 auto;
+}
+#player-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+    /*color: rgba(51, 122, 183, 0.9);*/
+    background-color: rgba(245, 245, 245, 0.72);
+    border-color: rgba(0, 0, 0, 0.08);
+}
+#submit {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -40px;
+    left: 50px;
+}
+.guess {
+    border-radius: 10%;
+    border: 1px solid;
+    font-size: 60px;
+    display: inline;
+    padding: 0 25px;
+    background-color: rgba(255, 255, 255, 0.84);
+}
+.source-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#menu-btns{
+    padding-bottom: 50px;
+}
+
+
